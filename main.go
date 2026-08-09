@@ -17,4 +17,16 @@ func main() {
 		fmt.Println("Two sum problem indices", TwoSum(arr, target))
 	*/
 
+	/*	Find Factorial By Taking Input From Console eg: 5, Factorial is 120 (5*4*3*2*1)*/
+	/*
+		var userInput int
+		fmt.Print("Enter Your value: ")
+		fmt.Scan(&userInput)
+		factorialValue, err := FactorialFind(userInput)
+		if err != nil {
+			fmt.Println("Error:", err)
+		}
+		fmt.Printf("Entered Value is %d and its Factorial is %d \n", userInput, factorialValue)
+	*/
+
 }
