@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 
 	/*
@@ -28,5 +30,24 @@ func main() {
 		}
 		fmt.Printf("Entered Value is %d and its Factorial is %d \n", userInput, factorialValue)
 	*/
+	/*
+
+		Input: "()[]{}"
+		Output: true
+
+		Input: "(]"
+		Output: false
+
+		Input: "([)]"
+		Output: false  (order galat hai — '(' ke andar '[' hai, lekin ']' pehle aa gaya)
+
+		Input: "{[]}"
+		Output: true
+
+	*/
+	var userString string
+	fmt.Print("Enter Your string: ")
+	fmt.Scan(&userString)
+	fmt.Println("Test Case:", Matching(userString))
 
 }
