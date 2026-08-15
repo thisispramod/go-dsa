@@ -45,9 +45,13 @@ func main() {
 		Output: true
 
 	*/
-	var userString string
-	fmt.Print("Enter Your string: ")
-	fmt.Scan(&userString)
-	fmt.Println("Test Case:", Matching(userString))
+	/*
+		var userString string
+		fmt.Print("Enter Your string: ")
+		fmt.Scan(&userString)
+		fmt.Println("Test Case:", Matching(userString))
+	*/
+
+	fmt.Println("substring count", LongestSubstring("pwwkew"))
 
 }
