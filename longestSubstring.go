@@ -23,11 +23,11 @@ func LongestSubstring(s string) int {
 		lastSeen[char] = i
 
 		// Current window ki length nikaalo
-		currentLength := i - start + 1
+		currentLength := i - start + 1 // 1, 2,2
 
 		// Agar ye ab tak ka best hai, to update karo
 		if currentLength > maxLength {
-			maxLength = currentLength
+			maxLength = currentLength // 1,2
 		}
 	}
 	return maxLength
