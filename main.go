@@ -52,6 +52,6 @@ func main() {
 		fmt.Println("Test Case:", Matching(userString))
 	*/
 
-	fmt.Println("substring count", LongestSubstring("pwwkew"))
+	fmt.Println("substring count", LongestSubstring("pwwkewe"))
 
 }
