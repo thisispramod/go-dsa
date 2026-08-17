@@ -51,7 +51,11 @@ func main() {
 		fmt.Scan(&userString)
 		fmt.Println("Test Case:", Matching(userString))
 	*/
+	/*
+		fmt.Println("substring count", LongestSubstring("pwwkewe"))
+	*/
 
-	fmt.Println("substring count", LongestSubstring("pwwkewe"))
+	/* fmt.Println("string return ", ReverseString("pramod")) */
+	fmt.Println("using two pointer", ReversStringPointer("root"))
 
 }
