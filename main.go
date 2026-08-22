@@ -56,6 +56,15 @@ func main() {
 	*/
 
 	/* fmt.Println("string return ", ReverseString("pramod")) */
-	fmt.Println("using two pointer", ReversStringPointer("root"))
+	/* fmt.Println("using two pointer", ReversStringPointer("root")) */
+	/*
+		arrs := []int{1, 2, 3, 4, 5}
+		   newarr := ArrayReverseInplace(arrs)
+		   fmt.Println("reverse array element in place", newarr)
+
+	*/
+	arrs := []int{1, 2, 3, 4, 5}
+
+	fmt.Println("second highest in array:", SecondHighest(arrs))
 
 }
