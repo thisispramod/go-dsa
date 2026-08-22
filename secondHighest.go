@@ -4,6 +4,10 @@ import "math"
 
 func SecondHighest(arr []int) int {
 
+	if len(arr) < 2 {
+		return math.MinInt
+	}
+
 	firstMax := math.MinInt
 	secondMax := math.MinInt
 	// 1,2,3,4,5

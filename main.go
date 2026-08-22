@@ -63,8 +63,12 @@ func main() {
 		   fmt.Println("reverse array element in place", newarr)
 
 	*/
-	arrs := []int{1, 2, 3, 4, 5}
+	/*
+		arrs := []int{1, 2, 3, 4, 5}
 
-	fmt.Println("second highest in array:", SecondHighest(arrs))
+		fmt.Println("second highest in array:", SecondHighest(arrs))
+	*/
+	series := FabonacciSeries(7)
+	fmt.Println("Given number fabonacci series is :", series)
 
 }
