@@ -68,7 +68,16 @@ func main() {
 
 		fmt.Println("second highest in array:", SecondHighest(arrs))
 	*/
-	series := FabonacciSeries(7)
-	fmt.Println("Given number fabonacci series is :", series)
+	/*
+		series := FabonacciSeries(7)
+		fmt.Println("Given number fabonacci series is :", series)
+	*/
+	arr1 := []int{1, 2, 3, 4, 5, 12, 32, 33}
+	arr2 := []int{6, 7, 8, 9, 10, 11}
+	fmt.Println("merge array is :", SortedArrMerge(arr1, arr2))
+	/*
+		arr := []int{1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 1}
+		fmt.Println("move all zero to end", MoveallzerosLeft(arr))
+	*/
 
 }
