@@ -81,7 +81,17 @@ func main() {
 		arr := []int{1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 1}
 		fmt.Println("move all zero to end", MoveallzerosLeft(arr))
 	*/
+	/*
+		fmt.Println("checking palindrome: ", checkPalindromestring("racecar"))
+	*/
 
-	fmt.Println("checking palindrome: ", checkPalindromestring("racecar"))
+	fmt.Println("Enter Your Number: ")
+	var num uint64
+
+	if _, err := fmt.Scan(&num); err != nil || num == 0 {
+		fmt.Println("Enter valid Number")
+		return
+	}
+	fmt.Println("Sum of Given number: ", SumOfGiven(num))
 
 }
