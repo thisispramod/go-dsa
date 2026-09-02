@@ -83,6 +83,7 @@ func main() {
 	*/
 	/*
 		fmt.Println("checking palindrome: ", checkPalindromestring("racecar"))
+		fmt.Println("Given string is Palindrome status:", LogestPalindromesubString("cbbd"))
 	*/
 
 	fmt.Println("Enter Your Number: ")
